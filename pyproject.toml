@@ -15,7 +15,9 @@ scipy = "^1.11.2"
 lange = "^1.230203.1"
 pathos = "^0.3.0"
 pyqt6 = "^6.6.0"
-torch = {version = "^2.1.0+cpu", source = "torchcpu1130"}
+torch = {version = "^2.7.1+cpu", source = "torchcpu1130"}
+torchvision = {version = "^0.22.1+cpu", source = "torchcpu1130"}
+torchtext = {version = "^0.18.0+cpu", source = "torchcpu1130"}
 hdict = { git = "https://github.com/davips/hdict.git", tag = "v2.250313.2" }
 scikit-learn = "^1.2.2"
 numpy = "^1.24.2"  #=1.24.2
@@ -46,6 +48,7 @@ gradient-descent-the-ultimate-optimizer = "^1.0"
 som-pbc = "^1.0.2"
 liac-arff = "^2.5.0"
 jax = {extras = ["cpu"], version = "^0.4.28"}
+portalocker = "^3.1.1"
 
 [[tool.poetry.source]]
 name = "torchcpu1130"
@@ -59,4 +62,3 @@ priority = "primary"
 [build-system]
 requires = ["poetry-core>=1.0.0", "Cython>=0.29.27", "setuptools>=60.8.1", "numpy>=1.23.3", "scipy>=1.10.1"]
 build-backend = "poetry.core.masonry.api"
-
