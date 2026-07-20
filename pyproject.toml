@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "labrna"
+version = "0.250814.0"
+description = "Prática em redes neurais artificiais"
+authors = ["davips <davip@utfpr.edu.br>"]
+license = "GPLv3"
+readme = 'README.md'
+packages = [
+    { include = "lab", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.14"
+scipy = "^1.11.2"
+lange = "^1.230203.1"
+torch = {version = "^2.7.1+cpu", source = "torchcpu1130"}
+scikit-learn = "^1.2.2"
+numpy = "^1.24.2"  #=1.24.2
+matplotlib = "^3.7.2"
+pandas = "^2.0.3"
+
+#pathos = "^0.3.0"
+#pyqt6 = "^6.6.0"
+#torchvision = {version = "^0.22.1+cpu", source = "torchcpu1130"}
+#torchtext = {version = "^0.18.0+cpu", source = "torchcpu1130"}
+#hdict = { git = "https://github.com/davips/hdict.git", tag = "v2.250313.2" }
+#tsne-torch = "^1.0.1"
+#setuptools = "^67.7.2"
+#Cython = "^0.29.27"
+#pytest = "^7.3.1"
+#pytest-cov = "^4.0.0"
+#black = "^23.3.0"
+#pdoc3 = "^0.10.0"
+#autoreadme = "^0.2302.3"
+#shelchemy = "^2.231111.1"
+#safeserializer = "^0.230202.1"
+#lz4 = "^4.3.2"
+#pip = "^23.2.1"
+#duckdb-engine = "^0.9.2"
+#seaborn = "^0.12.2"
+#sympy = "^1.12"
+#hyperopt = "^0.2.7"
+#pymysql = "^1.1.0"
+#ipython = "^8.17.2"
+#argvsucks = "^0.230725.7"
+#optuna = "^3.4.0"
+#plotly = "^5.18.0"
+#gradient-descent-the-ultimate-optimizer = "^1.0"
+#som-pbc = "^1.0.2"
+#liac-arff = "^2.5.0"
+#jax = {extras = ["cpu"], version = "^0.4.28"}
+#portalocker = "^3.1.1"
+ipykernel = "^7.3.0"
+
+[[tool.poetry.source]]
+name = "torchcpu1130"
+url = "https://download.pytorch.org/whl/cpu/"
+priority = "explicit"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+#requires = ["poetry-core>=1.0.0", "Cython>=0.29.27", "setuptools>=60.8.1", "numpy>=1.23.3", "scipy>=1.10.1"]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
