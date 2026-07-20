@@ -6,7 +6,7 @@ authors = ["davips <davip@utfpr.edu.br>"]
 license = "GPLv3"
 readme = 'README.md'
 packages = [
-    { include = "lab", from = "src" }
+    { include = "labrna", from = "src" }
 ]
 
 [tool.poetry.dependencies]
