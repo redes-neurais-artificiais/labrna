@@ -27,6 +27,12 @@ Instale o projeto da disciplina.
 
 Instale o vscode conforme seu sistema operacional favorito.
 Configure o vscode:
+    Instale extensões
+        Aperte Control+Shift+X
+        Python Poetry
+        Python (Pylance, Python Environments)
+        Jupyter
+        CoPilot e VS COde Speech (opcional)
     Aperte Control+Shift+P
     Escolha "Python: Select Interpreter"
     Copie o texto produzido pelo comando abaixo
