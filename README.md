@@ -5,7 +5,7 @@ Prática de implementação de redes neurais artificiais.
 Seguem abaixo algumas alternativas sugeridas de uso.
 
 ## Imagem VirtualBox
-Contém Debian linux XFCE com vscode.
+Contém Debian linux XFCE com vscode. Usuário **u**. Senha **u**.
 
 ## Instalação Manual
 Em linux (recomendado).
