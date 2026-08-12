@@ -36,9 +36,9 @@ Instale o projeto da disciplina.
     - Aperte Control+Shift+P
     - Escolha "Python: Select Interpreter"
     - Copie o texto produzido pelo comando abaixo
-```shell
-    poetry env info --path
-```
+    - ```shell
+         poetry env info --path
+      ```
     - Cole uma cópia no item "Enter interpreter path"
     - Deve ser algo parecido com "/home/usuario/.cache/pypoetry/virtualenvs/labrna-G-OeFOGY-py3.13"
 
